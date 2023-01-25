@@ -3,9 +3,6 @@ $color-light: #737373;
 $color-dark: #333333;
 $color-white: #ffffff;
 
-$font-text:'Playfair Display', serif;
-$font-header:'Playfair Display', sans-serif;
-
 $font-nav: 'Montserrat', sans-serif;
 $font-hand: 'Playball', cursive;
 $font-text: 'Roboto Slab', serif;
@@ -41,7 +38,7 @@ section {
     position: relative;
     margin: 0 0 60px 0;
     font-size: 36px;
-    font-family: $font-header
+    font-family: $font-nav;
 }
     
 .section-title::after {
@@ -54,7 +51,39 @@ section {
     transform: translateX(-50%);
     background: $color-main;
 }
-    
+
+/* Navigation */
+.logo {
+    font-family: $font-hand;
+    color: $color-main;
+    font-size: 30px;
+}
+
+.navigation {
+    padding: 12px 0;
+    font-family: $font-nav;
+    font-weight: 400;
+    font-size: 15px;
+    word-spacing: 20px;
+}
+
+.navigation ul {
+    padding: 37px 0 0 0 ;
+    margin: 0;
+    list-style-type: none;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 70px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: $color-white;
+    font-family: $font-nav;
+}
+
 /* Splash */
 
 .splash {
@@ -98,7 +127,7 @@ section {
 .page-footer {
     position: relative;
     margin: 0;
-    background: $color-main;
+    background: $color-white;
     padding-top: 5px;
     padding-bottom: 5px;
     display: block;

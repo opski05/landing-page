@@ -28,7 +28,7 @@ section {
   position: relative;
   margin: 0 0 60px 0;
   font-size: 36px;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .section-title::after {
@@ -40,6 +40,38 @@ section {
   height: 4px;
   transform: translateX(-50%);
   background: #fed136;
+}
+
+/* Navigation */
+.logo {
+  font-family: "Playball", cursive;
+  color: #fed136;
+  font-size: 30px;
+}
+
+.navigation {
+  padding: 12px 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  word-spacing: 20px;
+}
+
+.navigation ul {
+  padding: 37px 0 0 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-right: 70px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Splash */
@@ -81,7 +113,7 @@ section {
 .page-footer {
   position: relative;
   margin: 0;
-  background: #fed136;
+  background: #ffffff;
   padding-top: 5px;
   padding-bottom: 5px;
   display: block;
