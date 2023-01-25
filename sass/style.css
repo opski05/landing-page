@@ -163,14 +163,46 @@ h5 {
   margin: 0;
 }
 
-/* Footer */
-.page-footer {
-  position: relative;
-  margin: 0;
-  background: #ffffff;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  display: block;
-  color: #737373;
-  font-family: "Roboto Slab", serif;
+.btn {
+  background-color: #333333;
+  border-radius: 50%;
+}
+
+/* footer */
+.footer {
+  padding: 0;
+  justify-content: center;
+}
+
+.footer li {
+  font-size: 0;
+  padding: 5px;
+}
+
+li i {
+  font-size: 30px;
+}
+
+.footer i {
+  font-size: 30px;
+  background: #333333;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+i {
+  border-radius: 50%;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0;
+}
+
+.copyright {
+  z-index: 1;
 }

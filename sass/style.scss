@@ -154,6 +154,7 @@ section {
     color: $color-dark
 }
 
+
 /* Portfolio */
 
 .portfolio {
@@ -178,26 +179,50 @@ h5 {
 }
 
 
-
-
-
-/* Footer */
-
-.page-footer {
-    position: relative;
-    margin: 0;
-    background: $color-white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    display: block;
-    color: $color-light;
-    font-family: $font-text
+.btn {
+    background-color: $color-dark;
+    border-radius: 50%;
 }
 
+/* footer */
 
+.footer{
+    padding: 0;
+    justify-content: center;
+}
 
+.footer li {
+    font-size: 0;
+    padding: 5px;
+}
 
+li i{
+    font-size: 30px;   
+}
 
+.footer i{
+    font-size: 30px;
+    background: $color-dark; 
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: $color-white;
+}
+
+i{
+    border-radius: 50%;
+}
+
+.footer ul{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    padding: 0;
+}
+
+.copyright {
+    z-index: 1;
+}
 
 
 
