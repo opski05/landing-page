@@ -145,7 +145,7 @@ section {
     color: $color-light;
     font-size: 12px;
     margin: 0;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     
 }
 
@@ -250,6 +250,20 @@ i{
 
     .logo {
         font-size: 50px;
+    }
+
+    .services {
+        img {
+            padding-top: 10px;
+        }
+
+        h2 {
+            margin: 0;
+        }
+    }
+
+    .portfolio {
+        justify-content: center;
     }
 }
 

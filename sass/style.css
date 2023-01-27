@@ -131,7 +131,7 @@ section {
   color: #737373;
   font-size: 12px;
   margin: 0;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .title {
@@ -226,5 +226,14 @@ i {
   }
   .logo {
     font-size: 50px;
+  }
+  .services img {
+    padding-top: 10px;
+  }
+  .services h2 {
+    margin: 0;
+  }
+  .portfolio {
+    justify-content: center;
   }
 }
