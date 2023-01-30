@@ -185,6 +185,10 @@ h5 {
     border-radius: 50%;
 }
 
+.title {
+    padding-top: 15px;
+}
+
 /* footer */
 
 .footer{
@@ -222,7 +226,7 @@ i{
 }
 
 .copyright {
-    z-index: 1;
+    padding-top: 20px;
 }
 
 /* Media */
@@ -260,10 +264,6 @@ i{
         h2 {
             margin: 0;
         }
-    }
-
-    .portfolio {
-        justify-content: center;
     }
 }
 
