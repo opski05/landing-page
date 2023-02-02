@@ -193,15 +193,14 @@ h5 {
 
 .footer{
     padding: 0;
-    justify-content: center;
 }
 
-.footer li {
+.footer .media {
     font-size: 0;
     padding: 5px;
 }
 
-li i{
+.media i{
     font-size: 30px;   
 }
 
@@ -218,12 +217,7 @@ i{
     border-radius: 50%;
 }
 
-.footer ul{
-    display:flex;
-    justify-content:center;
-    text-align: center;
-    padding: 0;
-}
+
 
 .copyright {
     padding-top: 20px;
@@ -262,6 +256,11 @@ i{
             margin: 0;
         }
     }
+
+    .col-4 {
+        width: 100%;
+    }
+
 }
 
 
